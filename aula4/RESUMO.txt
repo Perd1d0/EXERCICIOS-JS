@@ -1,0 +1,28 @@
+Programção Back-End - 24/06/2024
+Tópicos:
+    * Assincronismo;
+    * Funções Assíncronas / Async e Await;
+    * Requisição HTTP;
+    * APIs e EndPoints.
+
+    /------- Assincronismo -------/
+
+Sincronismo: É uma tarefa que depende exclusivamente do tempo de processamento e resposta do sistema.
+Assincronismo nas requisições HTTP/HTTPS:
+
+
+        ___________                   ___________          ___________
+       |           |   Requisição    |           |        |           |                JSON - Java Script
+       | Front-End |    <------->    |    API    |  <---> |    BD     |                 Object Notation.
+       |___________|    Resposta     |___________|        |___________|
+
+FETCH('STRING', OPÇÕES)
+                   |> *GET
+                   |> *PUT/UPDATE
+                   |> *READ
+                   |> *DELETE
+
+
+*PROMISE*
+    |> Async - Depende do Await
+    |> Await 
