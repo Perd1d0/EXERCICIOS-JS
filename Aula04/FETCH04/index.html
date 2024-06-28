@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>POKEMON API - Parte 04</title>
+</head>
+<body>
+    <header>
+        <img src="img/banner.png" alt="banner">
+    </header>
+    <div class="pesquisa">
+        <input id="pokemonID" placeholder="Pesquise por seu pokemon" type="text">
+        <button onclick="fetchPokemon()" id="buscarPokemon">Pokemon</button><br>
+    </div>
+    <div class="card">
+        <img src="" alt="" id="pokemonSprite" style="display: none;">
+        <p id="pokemonName"></p>
+        <small id="pokemonType"></small>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
